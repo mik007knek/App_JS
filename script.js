@@ -1,6 +1,6 @@
 "use strict";
 
-var numberOfFilms = prompt("Сколько фильмов вы уже посмотррели?", "");
+var numberOfFilms = +prompt("Сколько фильмов вы уже посмотррели?", "");
 
 
 var personalMovieDB = {
