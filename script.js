@@ -20,3 +20,5 @@ lastFilm = prompt("Один из последних просмотренных �
 mark = prompt("На сколько вы его оцените?", "");
 
 personalMovieDB.movies[lastFilm] = mark;
+
+console.log(personalMovieDB);
